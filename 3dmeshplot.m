@@ -41,7 +41,7 @@ demcmap(zlimits);
 
 pp=p;
 for i=1:Node
-    pp(i,3)=fid(1+Ele+i,5)-500;
+    pp(i,3)=fid(1+Ele+i,4);
 end
 trbed=TriRep(t,pp);
 trisurf(trbed,'EdgeColor','none','LineStyle','none','FaceColor',[0.5 0.5 0.6]);
